@@ -1,0 +1,23 @@
+GET http://localhost:3005/books HTTP/1.1
+Content-Type: application/json
+
+###
+
+POST http://localhost:3005/books HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "FARZI"
+}
+
+###
+PUT http://localhost:3005/books/2 HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "FAMILY MAN"
+}
+
+###
+DELETE http://localhost:3005/books/2 HTTP/1.1
+Content-Type: application/json
